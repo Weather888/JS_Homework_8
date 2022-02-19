@@ -7,21 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Пример скрипта</title>
 
-  <!--Код скрипта, в котором открывается страничка с кнопкой, нажав на которую, окно акрывается --> 
+  <!--Код скрипта, который открывает новое окно браузера с помощью метода open()-->
   <script>
     function openWin() {
-        myWin = window.open("https://htmlpreview.github.io/?https://github.com/Weather888/JS_Homework_8/blob/main/keywords.html");
-      }
-      function closeIt() {
-        myWin.close();
-      }
-    </script>
-    
-    <br>
-    <form style = "text-align: center;">
-      <input type = "button" value = "Сейчас мы закроем это окно!" onclick = "closeIt()">
-    </form>
+      let myWin = window.open("https://htmlpreview.github.io/?https://github.com/Weather888/JS_Homework_8/blob/main/keywords1.html");
+    }
+  </script>
+</head>
 
-  </body>
-  
-  </html>
+<body>
+  <form>
+    <input type="button" value="Открываем новое окно" onclick="openWin()">
+  </form>
+
+</body>
+
+</html>
