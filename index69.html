@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Пример скрипта</title>
 
-  <!--Код скрипта, который открывает новое окно браузера с помощью метода open()-->
+  <!--Код скрипта, который открывает и на открывшейся странице закрывает окно-->
   <script>
     function openWin() {
       let myWin = window.open("https://htmlpreview.github.io/?https://github.com/Weather888/JS_Homework_8/blob/main/keywords1.html");
@@ -16,10 +16,10 @@
 </head>
 
 <body>
-  <form>
+  <br>
+    <form style="text-align: center;">
     <input type="button" value="Открываем новое окно" onclick="openWin()">
   </form>
 
 </body>
-
 </html>
